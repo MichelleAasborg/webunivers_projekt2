@@ -14,7 +14,8 @@ nav{
     height: 80px;
     background-color: #B1C4C0;
     position: fixed; 
-} 
+    font-family: 'albert sans';
+}
 
 a{
     color: black;
