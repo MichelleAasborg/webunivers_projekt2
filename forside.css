@@ -4,4 +4,39 @@
 
 body{
     background-color: #E4DFC2;
+    font-family: 'albert sans';
+    line-height: 2.5;
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.velkommen{
+    border: 2px solid black;
+    padding: 50px;
+    margin: 50px;
+    display: inline-block;
+    width: 65%;
+}
+
+
+
+
+
+footer{
+    background-color: #B1C4C0;
+    padding: 20px;
+    font-family: 'albert sans';
+    width: 100%;
+    text-align: center;
 }
