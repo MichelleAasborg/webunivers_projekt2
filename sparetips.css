@@ -12,12 +12,15 @@ body{
 p {
     font-size: 21px;
     color: #000000;
+    margin-bottom: 20px;
+
 }
 
 h3 {
     font-size: 30px;
     color: #000000;
     font-style: bold;
+    margin-bottom: 10px;
 }
 
 .topbillede {
@@ -29,7 +32,7 @@ h3 {
 
 .velkomst {
     text-align: center;
-    padding-top: 40px;
+    padding-top: 80px;
 }
 
 .sparetips {
