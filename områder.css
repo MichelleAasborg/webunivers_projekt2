@@ -13,7 +13,6 @@ p {
     font-size: 21px;
     color: #000000;
     margin-bottom: 20px;
-
 }
 
 h3 {
@@ -34,35 +33,3 @@ h3 {
     text-align: center;
     padding-top: 80px;
 }
-
-.sparetips {
-
-    padding-top: 100px;
-    padding-left: 125px;
-}
-
-.sparetips section {
-    margin-bottom: 80px;
-}
-
-.sparetips h2 {
-    font-size: 45px;
-    font-style: bold;
-    margin-bottom: 20px;
-}
-
-.content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.content img {
-    width: 120px; /* Justér størrelsen efter behov */
-    height: auto;
-    margin-right: 200px;
-}
-
-
-
-
