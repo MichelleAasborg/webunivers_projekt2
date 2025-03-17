@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E4DFC2;
+    font-family: 'albert sans';
+}
+
+p {
+    font-size: 21px;
+    color: #000000;
+}
+
+h3 {
+    font-size: 30px;
+    color: #000000;
+    font-style: bold;
+}
+
+.topbillede {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.velkomst {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.sparetips {
+
+    padding-top: 100px;
+    padding-left: 125px;
+}
+
+.sparetips section {
+    margin-bottom: 80px;
+}
+
+.sparetips h2 {
+    font-size: 45px;
+    font-style: bold;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    width: 200px;
+    height: auto;
+}
+
+.content img {
+    width: 120px; /* Justér størrelsen efter behov */
+    height: auto;
+    margin-right: 200px;
+}
+
+
+
+
+
+
+
