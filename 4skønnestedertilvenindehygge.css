@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E4DFC2;
+    font-family: 'albert sans';
+}
+
+p {
+    font-size: 21px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 30px;
+    color: #000000;
+    font-style: bold;
+    margin-bottom: 10px;
+}
+
+.topbillede {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.velkomst {
+    text-align: center;
+    padding-top: 80px;
+}
+
+h2 {
+    font-size: 45px;
+    font-style: bold;
+    margin-bottom: 20px;
+}
+
+.container-left {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.text-left a {
+        margin-left: 0;
+        padding-left: 0;
+        font-size: 21px;
+        padding-bottom: 20px;
+}
+
+.text-left a:hover{
+    text-decoration: underline;
+}
+
+
+.container-right {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.text-right a {
+    margin-left: 0;
+    padding-left: 0;
+    font-size: 21px;
+    padding-bottom: 20px;
+}
+
+.text-right a:hover{
+text-decoration: underline;
+}
+
