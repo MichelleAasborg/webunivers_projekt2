@@ -33,3 +33,54 @@ h3 {
     text-align: center;
     padding-top: 80px;
 }
+
+h2 {
+    font-size: 45px;
+    font-style: bold;
+    margin-bottom: 20px;
+}
+
+.container-left {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.text-left a {
+        margin-left: 0;
+        padding-left: 0;
+        font-size: 21px;
+        padding-bottom: 20px;
+}
+
+.text-left a:hover{
+    text-decoration: underline;
+}
+
+
+.container-right {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.text-right a {
+    margin-left: 0;
+    padding-left: 0;
+    font-size: 21px;
+    padding-bottom: 20px;
+}
+
+.text-right a:hover{
+text-decoration: underline;
+}
+
+
