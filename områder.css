@@ -87,4 +87,10 @@ p a {
     margin-right: 0; /* Fjerner eventuel margin, hvis der er en */
 }
 
+.image-left-block img {
+    display: block;  /* Gør hvert billede til et blok-element */
+    margin-bottom: 10px; /* Giver lidt afstand mellem billederne */
+    max-width: 100%; /* Sørger for, at billederne ikke bliver for brede */
+}
+
 
