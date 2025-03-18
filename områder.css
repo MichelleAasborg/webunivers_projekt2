@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -81,6 +81,16 @@ h2 {
 
 .text-right a:hover{
 text-decoration: underline;
+}
+
+p a {
+    margin-right: 0; 
+}
+
+.image-left-block img {
+    display: block; 
+    margin-bottom: 10px; 
+    max-width: 100%; 
 }
 
 
