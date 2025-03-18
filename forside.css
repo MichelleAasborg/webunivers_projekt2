@@ -29,14 +29,6 @@ h2{
     width: 65%;
 }
 
-footer{
-    background-color: #B1C4C0;
-    padding: 20px;
-    font-family: 'albert sans';
-    width: 100%;
-    text-align: center;
-}
-
 .cards {
     display: flex; 
     gap: 20px; 
@@ -45,7 +37,7 @@ footer{
     padding: 0;
     margin: 0;
     padding-left: 10px;
-    margin-bottom: 70px;
+    margin-bottom: 600px;
 }
 
 .card {
@@ -83,4 +75,39 @@ footer{
     background-color: #EC8A8A;
     color: white;
 }
+
+.sparetips {
+    margin-top: 200px; /* Skab afstand over sektionen */
+    margin-bottom: 200px; /* Skab afstand under sektionen */
+    text-align: center; /* Centrer indholdet */
+    display: flex; /* Brug flexbox til centrering */
+    flex-direction: column; /* Placer billedet og teksten i en lodret retning */
+    justify-content: center; /* Centrer indholdet vertikalt */
+    align-items: center; /* Centrer indholdet horisontalt */
+}
+
+
+
+.sparetips img {
+    width: 900px; /* Fyld hele kortets bredde */
+    height: auto; /* Bevar billedets proportioner */
+    object-fit: cover; /* Sørg for, at billedet beskæres korrekt */
+
+}
+
+.sparetips p {
+    font-size: 18px; 
+    margin: 0; 
+    position: absolute;
+}
+
+
+footer{
+    background-color: #B1C4C0;
+    padding: 20px;
+    font-family: 'albert sans';
+    width: 100%;
+    text-align: center;
+}
+
 
