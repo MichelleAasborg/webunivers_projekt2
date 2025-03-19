@@ -7,6 +7,9 @@
 body{
     background-color: #E4DFC2;
     font-family: 'albert sans';
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 p {
@@ -31,7 +34,8 @@ h3 {
 
 .velkomst {
     text-align: center;
-    padding-top: 80px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 h2 {
@@ -41,15 +45,23 @@ h2 {
 }
 
 .container {
+    margin-top: 20px;
     display: flex;
-    flex-wrap: wrap; 
-    gap: 20px; 
     justify-content: center; 
+    gap: 60px; 
+
 }
 
-.card {
-    flex: 1 1 calc(33.33% - 20px); 
-    max-width: calc(33.33% - 20px); 
-    box-sizing: border-box; 
-    text-align: center; 
+.card img {
+    display: flex;
+    justify-content: center;
 }
+
+.card p {
+    background-color: #EC8A8A;
+    padding: 20px;
+}
+
+.card p:hover {
+    color: #ece8e0;
+} 
