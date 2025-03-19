@@ -47,9 +47,14 @@ nav a:hover{
 }
 
 footer {
+    display: grid;
+    place-items: center; /* Centrerer både vandret og lodret */
+    height: 60px;
     background-color: #B1C4C0;
-    padding: 20px;
-    margin-top: 40px;
-    font-family: 'albert sans';
     width: 100%;
+    margin-top: 50px;
+}
+
+footer p{
+    font-size: 12px;
 }

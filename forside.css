@@ -42,8 +42,8 @@ h2{
 .container {
     margin-top: 20px;
     display: flex;
-    justify-content: center; 
-    gap: 60px; 
+    justify-content: center; /* Centrerer kortene */
+    gap: 60px; /* Afstand mellem kortene */
 }
 
 .card img {
@@ -62,16 +62,16 @@ h2{
 
 .sparetips {
     position: relative;
-    display: inline-block; 
+    display: inline-block; /* Sørger for, at størrelsen følger billedet */
     text-align: center;
     margin-top: 20px;
 }
 
 .overlay {
     position: absolute;
-    top: 50%; 
+    top: 50%; /* Placerer teksten i midten */
     left: 60%;
-    transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%); /* Justerer præcis til midten */
     color: rgb(0, 0, 0); 
 }
 
