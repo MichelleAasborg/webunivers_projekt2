@@ -33,52 +33,23 @@ h2{
     width: 65%;
 }
 
-.cards {
-    display: flex; 
-    gap: 20px; 
-    justify-content: flex-start; 
-    align-items: stretch; 
-    padding: 0;
-    margin: 0;
-    padding-left: 10px;
-    margin-bottom: 600px;
+.container {
+    display: flex;
+    justify-content: center; /* Centrerer kortene */
+    gap: 40px; /* Afstand mellem kortene */
+    padding: 20px;
 }
 
-.card {
-    position: relative;
-    text-decoration: none; 
-    color: inherit; 
-    width: 900px; 
-    height: 400px; 
-    overflow: hidden; 
-    transition: transform 0.3s ease; 
-}
-
-
-.card-img {
-    width: 120%; 
-    height: 100%; 
-    object-fit: cover; 
+.card img {
+    display: flex;
+    justify-content: center;
 }
 
 .card p {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    margin: 0;
-    text-align: center;
-    font-weight: bold;
-    position: absolute;
-    background-color:#EC8A8A;
-    padding: 10px 0;
-    box-sizing: border-box;
+    background-color: #EC8A8A;
+    padding: 10px;
 }
 
-.card p:hover {
-    background-color: #EC8A8A;
-    color: white;
-}
 
 .sparetips {
     margin-top: 200px; /* Skab afstand over sektionen */
