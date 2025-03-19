@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+body{
+    font-family: 'albert sans';
+}
+
 
 nav{
     display: flex;
@@ -16,6 +20,7 @@ nav{
     position: fixed; 
     font-family: 'albert sans';
     font-weight: 600;
+    z-index: 1000; /* Højere værdi end .card */
 }
 
 a{
@@ -35,13 +40,16 @@ nav a:hover{
     margin-top: 10px;
 }
 
-
 .søgefelt{
     width: 40px;
     height: 40px;
     margin-left: 50px;
 }
-body{
-    background-color: #E4DFC2;
+
+footer {
+    background-color: #B1C4C0;
+    padding: 20px;
+    margin-top: 40px;
     font-family: 'albert sans';
+    width: 100%;
 }
