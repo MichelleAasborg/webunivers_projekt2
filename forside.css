@@ -86,35 +86,4 @@ h2{
     padding: 10px;
 }
 
-.sparetips {
-    margin-top: 200px; /* Skab afstand over sektionen */
-    margin-bottom: 200px; /* Skab afstand under sektionen */
-    text-align: center; /* Centrer indholdet */
-    display: flex; /* Brug flexbox til centrering */
-    flex-direction: column; /* Placer billedet og teksten i en lodret retning */
-    justify-content: center; /* Centrer indholdet vertikalt */
-    align-items: center; /* Centrer indholdet horisontalt */
-}
-
-
-
-.sparetips img {
-    width: 900px; /* Fyld hele kortets bredde */
-    height: auto; /* Bevar billedets proportioner */
-    object-fit: cover; /* Sørg for, at billedet beskæres korrekt */
-
-}
-
-.sparetips p {
-    font-size: 18px; 
-    margin: 0; 
-    position: absolute;
-}
-
-
-html, body {
-    height: 100%;
-}
-
-
 
