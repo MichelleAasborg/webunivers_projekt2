@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E4DFC2;
+    font-family: 'albert sans';
+}
+
+p {
+    font-size: 21px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 30px;
+    color: #000000;
+    font-style: bold;
+    margin-bottom: 10px;
+}
+
+.topbillede {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.velkomst {
+    text-align: center;
+    padding-top: 80px;
+}
+
+h2 {
+    font-size: 45px;
+    font-style: bold;
+    margin-bottom: 20px;
+}
+
+
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 70px auto;
+    padding: 20px;
+}
+
+.box {
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    background-color: #84A59D;
+}

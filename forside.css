@@ -1,5 +1,7 @@
 #forsidebillede{
     width: 100%;
+    height: auto;
+    display: block;
 }
 
 body{
@@ -7,6 +9,8 @@ body{
     font-family: 'albert sans';
     line-height: 2.5;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 h1{
@@ -102,12 +106,8 @@ h2{
 }
 
 
-footer{
-    background-color: #B1C4C0;
-    padding: 20px;
-    font-family: 'albert sans';
-    width: 100%;
-    text-align: center;
+html, body {
+    height: 100%;
 }
 
 
