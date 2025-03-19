@@ -48,7 +48,7 @@ nav a:hover{
 
 footer {
     display: grid;
-    place-items: center; /* Centrerer både vandret og lodret */
+    place-items: center; 
     height: 60px;
     background-color: #B1C4C0;
     width: 100%;
