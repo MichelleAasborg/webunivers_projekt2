@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+body{
+    font-family: 'albert sans';
+}
+
 
 nav{
     display: flex;
@@ -16,6 +20,7 @@ nav{
     position: fixed; 
     font-family: 'albert sans';
     font-weight: 600;
+    z-index: 1000; /* Højere værdi end .card */
 }
 
 a{
@@ -35,7 +40,6 @@ nav a:hover{
     margin: 0 20px;
 }
 
-
 .søgefelt{
     width: 40px;
     height: 40px;
@@ -43,21 +47,9 @@ nav a:hover{
 }
 
 footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    padding: 20px 0;
     background-color: #B1C4C0;
+    padding: 20px;
+    margin-top: 40px;
+    font-family: 'albert sans';
     width: 100%;
-    margin: 0;
-    box-sizing: border-box;
-    position: sticky;
-    left: 0;
-    right: 0;
 }
-
-
-
-
-

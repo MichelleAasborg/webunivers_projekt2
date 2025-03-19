@@ -28,16 +28,23 @@ h2{
 .velkommen{
     border: 2px solid black;
     padding: 50px;
-    margin: 50px;
+    margin-top: 40px;
     display: inline-block;
     width: 65%;
 }
 
 .container {
+    margin-top: 20px;
     display: flex;
     justify-content: center; /* Centrerer kortene */
     gap: 40px; /* Afstand mellem kortene */
-    padding: 20px;
+  
+}
+
+.card:hover {
+    transform: scale(1.02); /* Gør kortet 5% større */
+    border-color: #666; /* Ændrer kantfarve */
+    transition: transform 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
 
 .card img {
@@ -47,9 +54,37 @@ h2{
 
 .card p {
     background-color: #EC8A8A;
-    padding: 10px;
+    padding: 20px;
 }
 
+.sparetips {
+    position: relative;
+    display: inline-block; /* Sørger for, at størrelsen følger billedet */
+    text-align: center;
+    margin-top: 20px;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%; /* Placerer teksten i midten */
+    left: 60%;
+    transform: translate(-50%, -50%); /* Justerer præcis til midten */
+    color: rgb(0, 0, 0); /* Hvid tekst */
+}
+
+.overlay h2 {
+    font-weight: bolder;
+}
+
+.overlay p {
+    white-space: nowrap; /* Teksten går ikke ned i flere linjer */
+    padding-bottom: 10px;
+}
+
+.button {
+    background-color: #EC8A8A;
+    padding: 10px;
+}
 
 .sparetips {
     margin-top: 200px; /* Skab afstand over sektionen */
@@ -80,5 +115,6 @@ h2{
 html, body {
     height: 100%;
 }
+
 
 
