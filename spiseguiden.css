@@ -73,13 +73,16 @@ h2 {
 .container {
     margin-top: 20px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center; 
+    align-items: flex-start;
     gap: 60px; 
 }
 
 .card img {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .card p {
