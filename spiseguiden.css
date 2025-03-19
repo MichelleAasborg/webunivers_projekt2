@@ -76,7 +76,7 @@ h2 {
     flex-wrap: wrap;
     justify-content: center; 
     align-items: flex-start;
-    gap: 60px; 
+    gap: 50px; 
 }
 
 .card img {
@@ -96,7 +96,7 @@ h2 {
 
 .card {
     display: inline-block; 
-    margin: 10px;
     text-align: center; 
+    padding: 10px;
 }
 
