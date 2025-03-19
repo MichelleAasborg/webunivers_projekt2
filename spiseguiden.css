@@ -31,7 +31,7 @@ h3 {
 
 .velkomst {
     text-align: center;
-    padding-top: 80px;
+    padding-top: 50px;
 }
 
 h2 {
@@ -41,7 +41,7 @@ h2 {
 }
 
 
-.container {
+.filter {
     display: flex;
     gap: 20px;
     justify-content: center;
@@ -71,7 +71,7 @@ h2 {
 
 
 .container {
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center; 
@@ -93,26 +93,10 @@ h2 {
 .card p:hover {
     color: #ece8e0;
 } 
+
 .card {
     display: inline-block; 
     margin: 10px;
     text-align: center; 
-   
 }
 
-.overlay {
-    position: absolute;
-    top: 50%; 
-    left: 60%;
-    transform: translate(-50%, -50%); 
-    color: rgb(0, 0, 0); 
-}
-
-.overlay h2 {
-    font-weight: bolder;
-}
-
-.overlay p {
-    white-space: nowrap; 
-    padding-bottom: 10px;
-}
