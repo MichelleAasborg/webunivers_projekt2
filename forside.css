@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-#forsidebillede{
+#forsidebillede img{
     width: 100%;
     height: auto;
     display: block;
