@@ -20,7 +20,7 @@ nav{
     position: fixed; 
     font-family: 'albert sans';
     font-weight: 600;
-    z-index: 1000; /* Højere værdi end .card */
+    z-index: 1000; 
 }
 
 a{
