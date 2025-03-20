@@ -93,4 +93,17 @@ p a {
     max-width: 100%; 
 }
 
+#kortlatiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+#kortlatiner img {
+    width: 1100px;
+    height: 300px;
+    object-fit: cover; 
+}
+
 
